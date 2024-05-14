@@ -27,7 +27,7 @@ Then run the following command to fine-tune the model:
 lightning-ir fit --config configs/monoelectra-fine-tune-colbert.yaml
 ```
 
-To fine-tune a model using our proposed distillation method, update the `train_dataset` argument in `configs/monoelectra-fine-tune-distillation.yaml` to point to the downloaded run file.
+To fine-tune a model using our proposed distillation method, update the `train_dataset` argument in `configs/monoelectra-fine-tune-distillation.yaml` to point to the downloaded distillation run file.
 
 Then run the following command to fine-tune the model:
 
