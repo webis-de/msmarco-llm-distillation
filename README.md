@@ -52,7 +52,6 @@ lightning-ir re_rank --config configs/predict-trec-dl.yaml
   author =                {Ferdinand Schlatt and Maik Fr{\"o}be and Harrisen Scells and Shengyao Zhuang and Bevan Koopman and Guido Zuccon and Benno Stein and Martin Potthast and Matthias Hagen},
   doi =                   {10.48550/2405.07920},
   journal =               {CoRR},
-  keywords =              {scadsai, ir, information retrieval},
   month =                 may,
   title =                 {{A Systematic Investigation of Distilling Large Language Models into Cross-Encoders for Passage Re-ranking}},
   url =                   {https://arxiv.org/abs/2405.07920},
