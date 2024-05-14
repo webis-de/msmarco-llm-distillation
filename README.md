@@ -1,14 +1,12 @@
 # MS MARCO LLM Distillation
 
-This repository contains the code for the paper `A Systematic Investigation of Distilling Large Language Models into Cross-Encoders for Passage Re-ranking`.
+This repository contains the code for the paper [`A Systematic Investigation of Distilling Large Language Models into Cross-Encoders for Passage Re-ranking`](https://arxiv.org/abs/2405.07920).
 
 ## Usage
 
 We use the [`lightning-ir`](https://github.com/webis-de/lightning-ir) library for fine-tuning and running experiments. Follow the installation instructions from the repository to install the library.
 
 ## Model Zoo
-
-We provide two fine-tuned models and refer to the [lightning-ir](https://github.com/webis-de/lightning-ir) repository for details on how to use the models for inference.
 
 | Model Name                                                          | TREC DL 19/20 nDCG@10 (BM25) | TIREx nDCG@10 |
 | ------------------------------------------------------------------- | ---------------------------- | ------------- |
