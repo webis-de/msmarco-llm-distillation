@@ -1,6 +1,6 @@
 # MS MARCO LLM Distillation
 
-This repository contains the code for the paper [`A Systematic Investigation of Distilling Large Language Models into Cross-Encoders for Passage Re-ranking`](https://arxiv.org/abs/2405.07920).
+This repository contains the code and data for the paper [`A Systematic Investigation of Distilling Large Language Models into Cross-Encoders for Passage Re-ranking`](https://arxiv.org/abs/2405.07920).
 
 ## Usage
 
