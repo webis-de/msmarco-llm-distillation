@@ -11,16 +11,30 @@ data:
   init_args:
     inference_batch_size: 4
     inference_datasets:
-      - data/__bm25__msmarco-passage-trec-dl-2019-judged.run
-      - data/__bm25__msmarco-passage-trec-dl-2020-judged.run
-      - data/__colbert__msmarco-passage-trec-dl-2019-judged.run
-      - data/__colbert__msmarco-passage-trec-dl-2020-judged.run
-    inference_dataset_config:
-      class_path: RunDatasetConfig
-      init_args:
-        depth: 100
-        sample_size: 100
-        sampling_strategy: top
+      - class_path: RunDataset
+        init_args:
+          run_path: data/__bm25__msmarco-passage-trec-dl-2019-judged.run
+          depth: 100
+          sample_size: 100
+          sampling_strategy: top
+      - class_path: RunDataset
+        init_args:
+          run_path: data/__bm25__msmarco-passage-trec-dl-2020-judged.run
+          depth: 100
+          sample_size: 100
+          sampling_strategy: top
+      - class_path: RunDataset
+        init_args:
+          run_path: data/__colbert__msmarco-passage-trec-dl-2019-judged.run
+          depth: 100
+          sample_size: 100
+          sampling_strategy: top
+      - class_path: RunDataset
+        init_args:
+          run_path: data/__colbert__msmarco-passage-trec-dl-2020-judged.run
+          depth: 100
+          sample_size: 100
+          sampling_strategy: top
 model:
   class_path: MonoElectraModule
   init_args:

@@ -13,10 +13,10 @@ data:
     train_batch_size: 16
     shuffle_train: true
     inference_batch_size: 4
-    train_dataset: __colbert__msmarco-passage-train-judged.run
-    train_dataset_config:
-      class_path: lightning_ir.data.dataset.RunDatasetConfig
+    train_dataset:
+      class_path: lightning_ir.data.dataset.RunDataset
       init_args:
+        run_path: __colbert__msmarco-passage-train-judged.run
         targets: relevance
         depth: 200
         sample_size: 8
