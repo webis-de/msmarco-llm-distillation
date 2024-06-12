@@ -38,6 +38,5 @@ data:
 model:
   class_path: MonoElectraModule
   init_args:
-    model_name_or_path: webis/monoelectra-base
-    # model_name_or_path: webis/monoelectra-large
+    model_name_or_path: path_to_model
 return_predictions: null
