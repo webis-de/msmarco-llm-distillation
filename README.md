@@ -30,9 +30,9 @@ lightning-ir fit --config configs/monoelectra-fine-tune-distillation.yaml
 
 ### Inference
 
-We provide an example configuration file for running inference on TREC Deep Learning 2019 and 2020 using our fine-tuned models in `configs/predict-trec-dl.yaml`.
+We provide an example configuration file for running inference on TREC Deep Learning 2019 and 2020 in `configs/predict-trec-dl.yaml`. Replace the `model_path` argument with the path to the fine-tuned model.
 
-To re-rank passages, run the following command (this will download the fine-tuned from HuggingFace and the MS MARCO passage corpus using [`ir_datasets`](https://ir-datasets.com/)):
+To re-rank passages, run the following command (this will download the MS MARCO passage corpus using [`ir_datasets`](https://ir-datasets.com/)):
 
 ```bash
 lightning-ir re_rank --config configs/predict-trec-dl.yaml
