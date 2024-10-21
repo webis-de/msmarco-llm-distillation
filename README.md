@@ -8,7 +8,7 @@ We use the [`lightning-ir`](https://github.com/webis-de/lightning-ir) library fo
 
 ### Data
 
-We will release the full run files for MS MARCO training queries upon acceptance. Sample run files can be found in the supplementary material.
+We will release the full run files for MS MARCO training queries upon acceptance. A sample run file can be found under `data/rank-distillm-rankzephyr.run`.
 
 ### Fine-tuning
 
