@@ -1,6 +1,6 @@
 # MS MARCO LLM Distillation
 
-This repository contains the code and data for the paper [`A Systematic Investigation of Distilling Large Language Models into Cross-Encoders for Passage Re-ranking`](https://arxiv.org/abs/2405.07920).
+This repository contains the code and data for the paper [`Rank-DistiLLM: Closing the Effectiveness Gap Between Cross-Encoders and LLMs for Passage Re-ranking`](https://webis.de/publications.html#schlatt_2025c) accepted at ECIR'25.
 
 ## Usage
 
@@ -48,13 +48,16 @@ lightning-ir re_rank --config configs/predict-trec-dl.yaml
 ## Citation
 
 ```bibtex
-@article{schlatt:2024,
-  author =                {Ferdinand Schlatt and Maik Fr{\"o}be and Harrisen Scells and Shengyao Zhuang and Bevan Koopman and Guido Zuccon and Benno Stein and Martin Potthast and Matthias Hagen},
-  doi =                   {10.48550/2405.07920},
-  journal =               {CoRR},
-  month =                 may,
-  title =                 {{A Systematic Investigation of Distilling Large Language Models into Cross-Encoders for Passage Re-ranking}},
-  url =                   {https://arxiv.org/abs/2405.07920},
-  year =                  2024
+@InProceedings{schlatt:2025c,
+  address =                  {Berlin Heidelberg New York},
+  author =                   {Ferdinand Schlatt and Maik Fr{\"o}be and Harrisen Scells and Shengyao Zhuang and Bevan Koopman and Guido Zuccon and Benno Stein and Martin Potthast and Matthias Hagen},
+  booktitle =                {Advances in Information Retrieval. 47th European Conference on IR Research (ECIR 2025)},
+  doi =                      {10.48550/arXiv.2405.07920},
+  month =                    apr,
+  publisher =                {Springer},
+  series =                   {Lecture Notes in Computer Science},
+  site =                     {Lucca, Italy},
+  title =                    {{Rank-DistiLLM: Closing the Effectiveness Gap Between Cross-Encoders and LLMs for Passage Re-ranking}},
+  year =                     2025
 }
 ```
